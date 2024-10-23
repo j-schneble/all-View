@@ -108,14 +108,12 @@ const SidebarLink = ({
         } `}
 
        /> */}
-        <Image
-            src={cube}
-            alt="db logo"
-            width={33}
-            height={33}
-/>
-
-
+        <button
+          className="md:hidden px-3 py-3 bg-gray-100 rounded-full hover:bg-blue-100"
+          onClick={toggleSidebar}
+        >
+          <Menu className="w-4 h-4" />
+        </button>
 
         </div>
          {/* LINKS */}
