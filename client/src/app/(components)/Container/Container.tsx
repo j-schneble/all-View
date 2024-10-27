@@ -88,9 +88,9 @@ interface IContainerProps {
                 <Dialog
                     open={isOpen} onClose={() => setIsOpen(false)}
                     transition
-                    className="fixed inset-0 z-10 itesm-center text-center p-4 pt-[20vh] overflow-y-auto'"
+                    className="fixed inset-0 z-10 itesm-center text-center p-4 pt-[20vh]  bg-black/30 overflow-y-auto'"
                     >
-                    <DialogBackdrop className="fixed flex items-center justify-center inset-0 bg-black/30" />
+                    <DialogBackdrop className="fixed flex items-center justify-center inset-0" />
                         <div className="fixed inset-0 items-center justify-center  z-[1] top-2 md:top-4  py-2 rounded-md  flex text-center p-4">
                             <DialogPanel className=" flex bg-black/70 rounded border border-white/50 p-6 items-center justify-evenly text-center ">
                             <div className='flex flex-col  text-lg text-white mt-4'>
