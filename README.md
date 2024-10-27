@@ -8,7 +8,7 @@
 <img width="900" alt="Screenshot 2024-10-26 at 10 24 54 PM" src="https://github.com/user-attachments/assets/7c2726f5-54f2-4e79-9037-3103f808309a">
 </p>
 
-<h1>STACK</h1>
+<h1>Stack</h1>
 
 - [Next.js](https://nextjs.org/)
 - [Typescript](https://nextjs.org/learn/excel/typescript)
