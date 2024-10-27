@@ -79,10 +79,10 @@ interface IContainerProps {
     return (
 
       <>
-      <div className='bg-white '>
-       <div className='flex p-2 justify-between bg-white   items-center w-full mb-7'>
+      <div className='bg-white min-h-screen py-2 w-full flex-col '>
+       {/* <div className='flex p-2 justify-between bg-white   items-center w-full mb-7'> */}
             {/* LEFT SIDE */}
-            <div className='flex justify-between items-center gap-5'>
+            <div className='flex bg-white items-center gap-5'>
             <button className='sticky text-zinc-950 flex items-center text-center text-lg rounded ml-10 '
                 onClick={() => setIsOpen(true)}> <MdKeyboardCommandKey size={26} /> </button>
                 <Dialog
@@ -134,13 +134,13 @@ interface IContainerProps {
     Allview
 </h1> */}
 
-            </div>
+
              {/* RIGHT SIDE */}
 
 
-            <div className='flex mr-6 justify-between text-black items-center gap-10'>
+            <div className='flex mx-auto text-center mr-6  text-black items-center gap-10'>
             <div>
-                <h1 className='font-normal lg:text-xl md:text-lg sm:text-lg antialiased  text-gray-950 tracking-wider text-xl'>
+                <h1 className='font-normal flex lg:text-xl md:text-lg sm:text-lg antialiased  text-gray-950 tracking-wider text-xl'>
                 Allview Mgmt
                 </h1>
             </div>
@@ -168,9 +168,11 @@ interface IContainerProps {
                     <Settings className='cursor-pointer text-gray-950' size={20} />
                     </Link>
              </div>
-        </div>
+             </div>
+        {/* </div> */}
             {children}
             </div>
+
       </>
     )
   }

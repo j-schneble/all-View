@@ -15,7 +15,7 @@ import StatCard from "./StatCard";
 
 const Dashboard = () => {
     return (
-        <div className="grid grid-cols-1 px-4 md:grid-cols-2 mt-10 xl:grid-cols-3 xl:overflow-auto gap-10 pb-4 custom-grid-rows">
+        <div className="grid grid-cols-1 px-4 bg-white md:grid-cols-2 mt-10 xl:grid-cols-3 xl:overflow-auto gap-10 pb-4 custom-grid-rows">
             <CardPopularProducts />
             <CardSalesSummary />
             <CardPurchaseSummary />
