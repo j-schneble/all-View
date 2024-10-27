@@ -27,7 +27,7 @@ const DashboardLayout = ({children} : {children: React.ReactNode}) => {
       <div
         className={`${
             isDarkMode ? "dark" : "light"
-        } flex  text-zinc-950 w-full min-h-screen`}
+        } flex bg-white text-zinc-950 w-full min-h-screen`}
         >
 
           <main className='flex flex-col w-full bg-white px-4 min-h-screen' >

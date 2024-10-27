@@ -12,6 +12,8 @@ import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { IoMdCloseCircle } from "react-icons/io";
 import { FaSitemap } from "react-icons/fa";
 import { HiUsers } from "react-icons/hi";
+import { MdKeyboardCommandKey } from "react-icons/md";
+
 import {
     Layout,
     LucideIcon,
@@ -78,18 +80,18 @@ interface IContainerProps {
 
       <>
       <div className='bg-white '>
-       <div className='flex border-b-2 border-zinc-800/80 justify-between bg-white   items-center w-full mb-7'>
+       <div className='flex p-2 justify-between bg-white   items-center w-full mb-7'>
             {/* LEFT SIDE */}
             <div className='flex justify-between items-center gap-5'>
-            <button className='sticky w-7 h-7 bg-black p-2 text-white text-lg rounded-full ml-12 '
-                onClick={() => setIsOpen(true)}> - </button>
+            <button className='sticky text-zinc-950 flex items-center text-center text-lg rounded ml-10 '
+                onClick={() => setIsOpen(true)}> <MdKeyboardCommandKey size={26} /> </button>
                 <Dialog
                     open={isOpen} onClose={() => setIsOpen(false)}
                     transition
                     className="fixed inset-0 z-10 itesm-center text-center p-4 pt-[20vh] overflow-y-auto'"
                     >
                     <DialogBackdrop className="fixed flex items-center justify-center inset-0 bg-black/30" />
-                        <div className="fixed inset-0 items-center justify-center bg-black/20 z-[1] top-2 md:top-4  py-2 rounded-md  flex text-center p-4">
+                        <div className="fixed inset-0 items-center justify-center  z-[1] top-2 md:top-4  py-2 rounded-md  flex text-center p-4">
                             <DialogPanel className=" flex bg-black/70 rounded border border-white/50 p-6 items-center justify-evenly text-center ">
                             <div className='flex flex-col  text-lg text-white mt-4'>
                             <Link
@@ -136,14 +138,14 @@ interface IContainerProps {
              {/* RIGHT SIDE */}
 
 
-            <div className='flex mr-8 justify-between text-black my-6 items-center gap-10'>
+            <div className='flex mr-6 justify-between text-black items-center gap-10'>
             <div>
                 <h1 className='font-normal lg:text-xl md:text-lg sm:text-lg antialiased  text-gray-950 tracking-wider text-xl'>
                 Allview Mgmt
                 </h1>
             </div>
              <hr
-             className='w-0 h-7 border border-solid border-l border-gray-300 mx-3 '
+             className='w-0 h-8 border border-solid border-l border-gray-300 mx-3 '
              />
             <div className='hidden md:flex text-black marker:justify-between items-center gap-10'>
                 <div>
