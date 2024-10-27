@@ -25,7 +25,7 @@ const Users = () => {
   }
 
   return (
-    <div className="flex mx-8  flex-col">
+    <div className="flex  flex-col">
       <Header name="Users" />
 
 

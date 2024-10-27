@@ -15,7 +15,7 @@ const CardPopularProducts = () => {
             <div className='m-5'>Loading... </div>
         ): (
             <>
-            <h3 className='text-xl font-semibold text-black px-5 pt-4 py-4 pb-2'>
+            <h3 className='text-xl bg-zinc-700 rounded-t-2xl text-slate-50 antialiased font-semibold px-5 pt-4 py-4 pb-2'>
                 Popular Products
             </h3>
             <hr />

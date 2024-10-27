@@ -77,7 +77,8 @@ interface IContainerProps {
     return (
 
       <>
-       <div className='flex  justify-between bg-white   items-center w-full mb-7'>
+      <div className='bg-white '>
+       <div className='flex border-b-2 border-zinc-800/80 justify-between bg-white   items-center w-full mb-7'>
             {/* LEFT SIDE */}
             <div className='flex justify-between items-center gap-5'>
             <button className='sticky w-7 h-7 bg-black p-2 text-white text-lg rounded-full ml-12 '
@@ -126,19 +127,19 @@ interface IContainerProps {
                             </DialogPanel>
                         </div>
                     </Dialog>
-                <div className="relative text-center p-2">
+
                 {/* <h1 className='font-light  text-gray-950 tracking-wider text-xl'>
     Allview
 </h1> */}
-            </div>
+
             </div>
              {/* RIGHT SIDE */}
 
 
             <div className='flex mr-8 justify-between text-black my-6 items-center gap-10'>
             <div>
-                <h1 className='font-light  text-gray-950 tracking-wider text-xl'>
-                Allview Management
+                <h1 className='font-normal lg:text-xl md:text-lg sm:text-lg antialiased  text-gray-950 tracking-wider text-xl'>
+                Allview Mgmt
                 </h1>
             </div>
              <hr
@@ -167,6 +168,7 @@ interface IContainerProps {
              </div>
         </div>
             {children}
+            </div>
       </>
     )
   }

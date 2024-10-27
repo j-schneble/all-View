@@ -23,7 +23,7 @@ const CardPurchaseSummary = () => {
         <div className="m-5">Loading...</div> :
 
         <>
-               <div>
+               <div className='bg-zinc-700 rounded-t-2xl text-slate-50 antialiased '>
             <h2 className="text-lg font-semibold mb-2 px-7 pt-5">
               Purchase Summary
             </h2>

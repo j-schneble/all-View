@@ -5,29 +5,29 @@ import { useGetProductsQuery } from "@/app/state/api";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 
 const columns: GridColDef[] = [
-  { field: "productId", headerName: "ID", width: 90, cellClassName: "bg-gray-400 text-white px-2 " },
-  { field: "name", headerName: "Product Name", width: 200, cellClassName: "bg-gray-400 text-red-600 px-2 " },
+  { field: "productId", headerName: "ID", width: 90, cellClassName: "text-zinc-800 px-2 " },
+  { field: "name", headerName: "Product Name", width: 100, cellClassName: "text-red-600 px-2 " },
   {
     field: "price",
     headerName: "Price",
-    width: 110,
+    width: 80,
     type: "number",
-    cellClassName: "text-green-600 bg-black",
+    cellClassName: "text-green-600 ",
     valueGetter: (value, row) => `$${row.price}`,
 
   },
   {
     field: "rating",
     headerName: "Rating",
-    width: 110,
+    width: 80,
     type: "number",
-    cellClassName: "text-amber-600 bg-black",
+    cellClassName: "text-amber-600 ",
     valueGetter: (value, row) => (row.rating ? row.rating : "N/A"),
   },
   {
     field: "stockQuantity",
     headerName: "Stock Quantity",
-    width: 150,
+    width: 100,
     type: "number",
   },
 ];

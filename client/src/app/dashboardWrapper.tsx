@@ -30,7 +30,7 @@ const DashboardLayout = ({children} : {children: React.ReactNode}) => {
         } flex  text-zinc-950 w-full min-h-screen`}
         >
 
-          <main className='flex flex-col w-full bg-white h-full py-7 px-9' >
+          <main className='flex flex-col w-full bg-white px-4 min-h-screen' >
 
                {children}
                </main>

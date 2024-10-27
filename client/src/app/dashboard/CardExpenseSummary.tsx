@@ -41,12 +41,12 @@ const CardExpenseSummary = () => {
     const formattedTotalExpenses = totalExpenses.toFixed(2);
 
   return (
-    <div className="row-span-3 bg-black shadow-md rounded-2xl flex flex-col justify-between">
+    <div className="row-span-3  shadow-md rounded-2xl flex flex-col justify-between">
     {isLoading ? (
       <div className="m-5">Loading...</div>
     ) : (
       <>
-    <div>
+    <div className='bg-zinc-700 rounded-t-2xl text-slate-50 antialiased '>
             <h2 className="text-lg text-white font-semibold mb-2 px-7 pt-5">
               Expense Summary
             </h2>
